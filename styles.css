@@ -37,6 +37,7 @@ span{
   font-size: 14px;
   font-family: Arial;
   text-decoration: none;
+
 }
 
 .authors{
@@ -46,13 +47,13 @@ span{
   list-style-type: none;
   font-family: sans-serif;
 
-    /*
-Triangle (too big for container)
+
+/*Triangle (too big for container)
     width: 0;
   	height: 0;
-  	border-left: 5px solid transparent;
-  	border-right: 5px solid transparent;
-  	border-top: 10px solid gray;*/
+  	border-left: 2px solid transparent;
+  	border-right: 2px solid transparent;
+  	border-top: 5px solid gray;*/
 }
 
 .authors img{
@@ -72,12 +73,13 @@ Triangle (too big for container)
     height: 12px;
     color: grey;
 
-
-  /*	width: 0;
+/*
+  	width: 0;
   	height: 0;
   	border-left: 5px solid transparent;
   	border-right: 5px solid transparent;
   	border-top: 10px solid gray;
+    float: right;
 */
 
   }
