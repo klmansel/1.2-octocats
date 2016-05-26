@@ -23,11 +23,9 @@
   height:350px;
   border: 1px solid rgb(200,199,200);
   border-radius: 1%;
-
-
 }
 
-span{
+.image-footer span{
   font-family: Arial;
   font-weight: bold;
   color: grey;
@@ -37,30 +35,42 @@ span{
   border: 0;
 
 }
+
 .image-caption a{
   color:black;
   font-weight: bold;
   font-size: 14px;
   font-family: Arial;
   text-decoration: none;
-
-
 }
 
 .authors{
-  display: inline-block;
+  display: inline;
   text-decoration: none;
   list-style-type: none;
   font-family: sans-serif;
+  float: right;
 
-/*Triangle
 
+  width: 0;
+  height: 0;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 10px solid rgb(200,199,200);
+
+
+}
+.clearfix{
+  clear: both;
+}
+.authors:before {
 width: 0;
 height: 0;
 border-left: 7px solid transparent;
 border-right: 7px solid transparent;
-border-top: 10px solid rgb(200,199,200); */
+border-top: 10px solid rgb(200,199,200);
 }
+
 
 
 .authors img{
